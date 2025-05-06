@@ -2,6 +2,7 @@
     "name": "justbetter/laravel-horizon-restarter",
     "description": "Automatically restart Laravel Horizon",
     "type": "package",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ramon Rietdijk",

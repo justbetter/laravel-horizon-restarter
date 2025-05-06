@@ -18,6 +18,12 @@ jobs:
 
         name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.stability }} - ${{ matrix.os }}
 
+        services:
+            redis:
+                image: redis:latest
+                ports:
+                    - 6379:6379
+
         steps:
             - name: Checkout code
               uses: actions/checkout@v4

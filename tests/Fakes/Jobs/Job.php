@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace JustBetter\HorizonRestarter\Tests\Fakes\Jobs;
 
 use Illuminate\Bus\Queueable;

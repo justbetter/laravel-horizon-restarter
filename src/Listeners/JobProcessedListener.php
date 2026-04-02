@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace JustBetter\HorizonRestarter\Listeners;
 
 use Illuminate\Support\Facades\Artisan;

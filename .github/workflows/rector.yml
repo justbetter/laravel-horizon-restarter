@@ -1,12 +1,12 @@
-name: style
+name: rector
 
 on: ['push', 'pull_request']
 
 jobs:
-    style:
+    rector:
         runs-on: ubuntu-latest
 
-        name: Style
+        name: Rector
 
         steps:
             -   name: Checkout code
@@ -22,5 +22,5 @@ jobs:
             -   name: Install dependencies
                 run: composer install
 
-            -   name: Style
-                run: composer style
+            -   name: Rector
+                run: composer rector
